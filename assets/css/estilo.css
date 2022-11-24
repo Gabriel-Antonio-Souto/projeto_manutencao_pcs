@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima&display=swap');
+
+body{
+    background: #204070;
+    color: #FFFFFF;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.cabecalho{
+    width: 100%;
+    display: inline-flex;
+}
+
+.logo{
+    width: 60px;
+    height: 60px;
+}
+
+.txtLogo{
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 15px;
+    float: left;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+p{
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.btnC{
+    align-self: center;
+    margin-left: auto;
+}
+
+.btnCabecalho{
+    width: 300px;
+    height: 40px;
+    background-color: #204070;
+    border-color: #7ED6F2;
+    border-radius: 25px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.btnCabecalho:hover{
+    background-color: #50C3E8;
+    color: #204070;
+}
+
+.conteinerTelaInicio{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    top: 50%;
+    transform: translate(0%, 10%);
+}                                       
+
+.conteinerTxtTelaInicial{
+    width: 46%;
+    align-self: center;
+}
+
+.bntFazerPedido{
+    width: 100%;
+    height: 40px;
+    background-color: #50C3E8;
+    border-color: #7ED6F2;
+    border-radius: 25px;
+    color: #204070; 
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.bntFazerPedido:hover{
+    background-color: #1ab1e4;
+    border-color: #1ab1e4;
+}
+
+.rodape{
+    bottom: 25px;
+    position: fixed;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;       
+    font-size: 20px; 
+    font-weight: bold;  
+    left: 50%;
+    transform: translate(-50%);      
+}
+
+.boxLogin{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+fieldset{
+    width: 350px;
+    height: 250px;
+    border: solid 2px;
+    border-radius: 15px;
+    border-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+legend{
+    font-size: 35px;
+    margin-left: 15px;
+}
+
+.inputLogin{
+    width: 85%;
+    height: 35px;
+    border-radius: 5px;
+    border-color: #7ED6F2; 
+    background-color: transparent;
+    margin-bottom: 18px;
+    padding-left: 10px;
+    color: #fff;
+}
+
+.btnLogin{
+    width: 90%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #50C3E8;
+    border-color: #50C3E8;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: bold;  
+}
+
+.formLogin i {
+    position: absolute;
+}
+
+.icon {
+    padding: 10px;
+    min-width: 40px;
+}
+
+.boxFormPedMan{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    font-size: 30px;
+    margin-top: 25px;
+}
+
+.fieldsetPM{
+    width: 700px;
+    border: solid 2px;
+    border-radius: 15px;
+    border-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.reclamante{
+    height: 150px;
+}
+
+.espPedido{
+    height: 320px;
+}
+
+.legendPM{
+    font-size: 25px;
+    margin-left: 15px;
+}
+
+.inputPM{
+    width: 95%;
+    height: 35px;
+    border-radius: 5px;
+    border-color: #7ED6F2; 
+    background-color: transparent;
+    margin-bottom: 18px;
+    padding-left: 10px;
+    color: #fff;
+}
+
+.rowInputs{
+    width: 97.3%;
+    display: inline-flex;
+}
+
+.tp1{
+    margin-right: 2%;
+}
+
+#descPedido{
+    height: 150px;
+}
+
+.btnEnviar{
+    width: 100%;
+    height: 45px;
+    background-color: #50C3E8;
+    border-color: #50C3E8;
+    border-radius: 5px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}

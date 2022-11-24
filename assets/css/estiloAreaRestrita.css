@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+    background: #0A1525;
+    color: #FFFFFF;
+}
+
+.wrapper{
+    display: flex;
+    position: relative;
+}
+
+.wrapper .sidebar{
+    width: 230px;
+    height: 100%;
+    background: #204070;
+    padding: 30px 0px;
+    position: fixed;
+}
+
+.wrapper .sidebar .logo{
+    margin-left: 86.5px;
+}
+
+.wrapper .sidebar h2{
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.wrapper .sidebar ul li{
+    padding: 15px;
+    border-bottom: 1px solid #bdb8d7;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    border-top: 1px solid rgba(255,255,255,0.05);
+}    
+
+.wrapper .sidebar ul li a{
+    color: #fff;
+    display: block;
+}
+
+.wrapper .sidebar ul li a .fas{
+    width: 25px;
+    float: left;
+    vertical-align: middle;
+    color: #7ED6F2;
+}
+
+.iconBtnMenu{
+    width: 30px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.wrapper .sidebar ul li:hover{
+    padding: 20px;
+    background-color: #7ED6F2;
+}
+    
+.wrapper .sidebar ul li:hover a{
+    color: #0A1525;
+    font-weight: bold;
+}
+
+.wrapper .sidebar ul li:hover a .fas{
+    color: #0A1525;
+}
+
+#liAtual{
+    padding: 20px; background-color: #7ED6F2;
+}
+
+#aAtual{
+    color: #0A1525; font-weight: bold;
+}
+
+#iAtual{
+    color: #0A1525;
+}
+
+.wrapper .sidebar .rodape{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;       
+    font-size: 18px; 
+    font-weight: bold;
+}
+
+.wrapper .main_content{
+    width: 100%;
+    margin-left: 235px;
+}
+
+.wrapper .main_content .header{
+    padding: 20px;
+    background: #204070;
+    text-align: right;
+}
+
+.btnSair{
+    width: 120px;
+    height: 40px;
+    background-color: #204070;
+    border-color: #7ED6F2;
+    border-radius: 25px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.btnSair:hover{
+    background-color: #50C3E8;
+    color: #204070;
+}
+
+.wrapper .main_content .info{
+    height: 100%;
+    margin: 20px;
+    line-height: 25px;
+}
+
+.wrapper .main_content .info div{
+    margin-bottom: 15px;
+}
+
+.titulo{
+    color: #717171;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.boxPedManutencao{
+    width: 100%;
+    height: 100%;
+    background: #204070;
+    border-radius: 15px;
+    padding: 20px;
+}       
+
+.buscasPM{
+   float: left;
+}
+
+.iconPdf{
+    width: 35px;
+    vertical-align: middle;
+    float: right;
+}
+
+.divTb{
+    width: 100%;
+    height: 90%;
+    border: solid 1px #7ED6F2;
+    border-radius: 15px;
+    overflow: auto; 
+    margin-top: 40px;
+}
+
+.tb{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.tb thead{
+    background: #7ED6F2; 
+}
+
+
+th, td{
+    padding: 15px;
+    text-align: left;
+    vertical-align: top;
+    border-bottom: solid 1px #7ED6F2;
+}
+
+.btnConcluir{
+    width: 100px;
+    height: 25px;
+    background-color: #7ED6F2;
+    border-color: #7ED6F2;
+    border-radius: 25px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: bold;
+    float: right;
+}
+
+.boxFormLabs{
+    width: 100%;
+    height: 150px;
+    background: #204070;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.formLab{
+    width: 100%;
+    margin-top: 15px;
+}
+
+.boxTbLabs{
+    width: 100%;
+    height: 100%;
+    background: #204070;
+    border-radius: 15px;
+    padding: 20px;
+    padding-bottom: 30px;
+}
+
+.tituloBox{
+    float: left;
+}
+
+.formLab{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.inputsForms{
+    width: 100%;
+    display: inline-flex;
+}
+
+.combInputLab{
+    width: 33.33%;
+    display: inline-flex;
+}
+
+.combInputUser{
+    width: 33.33%;
+    display: inline-flex;
+}
+
+label{
+    margin-right: 5px;
+}
+
+.nomeLab{
+    width: 30%;
+}
+
+.quantPcs{
+    width: 25%;
+}
+
+.obs{
+    width: 45%;
+}
+
+#quantPcs{
+    width: 25%;
+}
+
+#obs{
+    margin-right: 0px;
+}
+
+#senha{
+    margin-right: 0px;
+}
+
+.inputForms{
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+    border-color: #7ED6F2; 
+    background-color: transparent;
+    padding-left: 10px;
+    margin-right: 20px;
+    color: #fff;
+}
+
+.btnsForm{
+    text-align: right;
+    margin-top: -15px;
+}
+
+.btnCancelar{
+    width: 120px;
+    height: 30px;
+    background-color: #6F929D;
+    border: none;
+    border-radius: 25px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.btnSalvar{
+    width: 120px;
+    height: 30px;
+    background-color: #50C3E8;
+    border: none;
+    border-radius: 25px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.btnCancelar:hover{
+    background-color: #4F929D;;
+}
+
+.btnSalvar:hover{
+    background-color: #24AFDB;
+}
+
+.btnsTb{
+    text-align: right;
+}
+
+.btnEditar{
+    width: 100px;
+    height: 25px;
+    background-color: #24AFDB;
+    border: none;
+    border-radius: 25px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.btnExcluir{
+    width: 100px;
+    height: 25px;
+    background-color: #6F929D;
+    border: none;
+    border-radius: 25px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.btnEditar:hover{
+    background-color: #50C3E8;
+}
+
+.btnExcluir:hover{
+    background-color: #4F929D;;
+}
